@@ -71,10 +71,10 @@ format:
 
 *For any inquires please contact [aidin.niamir\@senckenberg.de](mailto:aidin.niamir@senckenberg.de)* 
 
-**Version:** `r rmarkdown::metadata$version`
 
 
 ## Workflow for TG Development (Here goes the TG)
+**Version:** `r rmarkdown::metadata$version`
 
 1. Update all metadata and the version number in the `README.md` YAML headers of this file
 2. Add abstract to both documents
