@@ -1,6 +1,6 @@
 ---
 title: Technical Guideline Series
-subtitle: fffff
+subtitle: The guideline name
 date: today
 author:
   - name: AAA BBB
@@ -35,8 +35,8 @@ copyright:
 citation: 
   type: report
   container-title: IPBES Technical Guidelines on XXXXX
-  doi: 11.1111/SETDOI.11111111
-doi: 1110.1111/SETDOI.11111111
+  doi: 10.5281/zenodo.10037104
+doi: 10.5281/zenodo.10037104
 version: 0.0.1
 
 format:

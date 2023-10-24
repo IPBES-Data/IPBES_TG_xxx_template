@@ -1,6 +1,6 @@
 # %TECHNICAL_GUIDELINE_NAME% - Version %VERSIO.VERSION%
 
-[![DOI](https://zenodo.org/badge/DOI/99.9999/zenodo.9999999.svg)](https://doi.org/99.9999/zenodo.9999999)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10037104.svg)](https://doi.org/10.5281/zenodo.10037104)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
