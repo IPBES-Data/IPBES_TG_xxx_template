@@ -47,3 +47,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# VScode workspace file
+IPBES_TG_xxx_template.code-workspace
