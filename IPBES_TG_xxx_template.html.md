@@ -34,7 +34,7 @@ copyright:
   year: 2023
 citation: 
   type: report
-  container-title: IPBES Technical Guidelines on XXXXX
+  container-title: IPBES Technical Guidelines Series
   doi: 10.5281/zenodo.10037104
 doi: 10.5281/zenodo.10037104
 version: 0.0.1
