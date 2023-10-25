@@ -8,10 +8,9 @@
 
 <meta name="author" content="AAA BBB">
 <meta name="author" content="CCC DDD">
-<meta name="dcterms.date" content="2023-10-24">
-<meta name="keywords" content="aaaaa, bbbbb">
+<meta name="dcterms.date" content="2023-10-25">
 
-<title>Technical Guideline Series</title>
+<title>The guideline name</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -2953,6 +2952,7 @@ vertical-align: -.125em;
   <ul>
   <li><a href="#workflow-for-tg-development-here-goes-the-tg" id="toc-workflow-for-tg-development-here-goes-the-tg" class="nav-link active" data-scroll-target="#workflow-for-tg-development-here-goes-the-tg">Workflow for TG Development (Here goes the TG)</a></li>
   <li><a href="#workflow-for-tg-publication" id="toc-workflow-for-tg-publication" class="nav-link" data-scroll-target="#workflow-for-tg-publication">Workflow for TG Publication</a></li>
+  <li><a href="#workflow-for-review" id="toc-workflow-for-review" class="nav-link" data-scroll-target="#workflow-for-review">Workflow for review</a></li>
   </ul>
 </nav>
 </div>
@@ -2960,8 +2960,8 @@ vertical-align: -.125em;
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Technical Guideline Series</h1>
-<p class="subtitle lead">The guideline name</p>
+<h1 class="title">The guideline name</h1>
+<p class="subtitle lead">Technical Guideline Series</p>
 </div>
 
 
@@ -2997,7 +2997,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 24, 2023</p>
+      <p class="date">October 25, 2023</p>
     </div>
   </div>
   
@@ -3019,20 +3019,10 @@ vertical-align: -.125em;
   </div>
 </div>
 
-<div>
-  <div class="keywords">
-    <div class="block-title">Keywords</div>
-    <p>aaaaa, bbbbb</p>
-  </div>
-</div>
 
 </header>
 
 <p>%Please fill in the headers accordingly.% %INCREASE THE VERSION BEFORE A NEW RELEASE.% % All parts which need to be changed are marked with a <code>%</code> sign.%</p>
-<p><strong>Prepared by</strong>:</p>
-<ul>
-<li><a href="mailto:xxx@yyy.zz">%Rainer M. Krug%</a> - IPBES Task Force on Knowledge and Data.</li>
-</ul>
 <p><strong>Reviewed by</strong>:</p>
 <ul>
 <li><a href="mailto:xxx@yyy.zz">%Aidin Niamir%</a></li>
@@ -3055,40 +3045,37 @@ vertical-align: -.125em;
 <p>Publication is done by creaating a new release, which is automatically pushed to zenodo as the repository is linked to Zenodo. There are a few manual steps which need to be done:</p>
 <ol type="1">
 <li>Update the version number in the `YAML headers of this file</li>
-<li>render this document to HTML (at the moment, the only nsupported format - but we can think about offering pdf versions for the offline reading)</li>
+<li>render this document to HTML (at the moment, the only supported format - but we can think about offering pdf versions for the offline reading)</li>
 <li>Check the renderd html document and make sure that all links are working and that the document is rendered correctly</li>
 <li>Do a final check of the README.md to make sure that it is still up to date</li>
+<li>Make sure that the version in the document and the tag for the release corresponds (i.e. tag should be vX.Y.Z)</li>
 <li>Create a new release on github and upload the rendered html document as a release asset</li>
 </ol>
-<p><strong>Do we need this section?</strong> Final version that has been approved by the Plenary and is ready for publication:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Description</th>
-<th>Version</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>File submitted for publication</td>
-<td>0.0.1</td>
-</tr>
-</tbody>
-</table>
+</section>
+<section id="workflow-for-review" class="level1">
+<h1>Workflow for review</h1>
+<ol type="1">
+<li>Export the TG as a docx file</li>
+<li>upload the docx file to google drive (convert it if you want to to google doc format - it makes it faster to wotk with the document but it not necessary)</li>
+<li>get the link to the TG on google drive (<strong>The share sould be <code>Comment only</code>!</strong>) and add it to this TG file <a href="LINK.TO.GOOGLE.DOC">To review, click here</a></li>
+<li>export the TG to pdf, which now contains the link to the google doc</li>
+<li>send the pdf to the reviewers with the information that for reviewing, they should open the document on google docs using the link in the document (and in the email)</li>
+<li>at ther end, transfer the requested changes from the google doc to the TG and update the html on github</li>
+</ol>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@report{bbb2023,
   author = {BBB, AAA and DDD, CCC},
-  title = {Technical {Guideline} {Series}},
+  title = {The Guideline Name},
   pages = {undefined},
-  date = {2023-10-24},
+  date = {2023-10-25},
   doi = {10.5281/zenodo.10037104},
   langid = {en},
   abstract = {The short abstract goes here and can go over multiple
     lines. ...}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-bbb2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-BBB, AAA, and CCC DDD. 2023. <span>“Technical Guideline Series.”</span>
+BBB, AAA, and CCC DDD. 2023. <span>“The Guideline Name.”</span>
 <em>IPBES Technical Guidelines on XXXXX</em>. <a href="https://doi.org/10.5281/zenodo.10037104">https://doi.org/10.5281/zenodo.10037104</a>.
 </div></div></section></div></main>
 <!-- /main column -->

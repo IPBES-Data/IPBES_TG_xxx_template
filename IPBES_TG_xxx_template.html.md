@@ -50,11 +50,9 @@ format:
         keep-md: true
 ---
 
-```{r}
-#| label: setup
-#| include: false
-# This is needed to execute the inline code
-```
+
+
+
 
 %Please fill in the headers accordingly.%
 %INCREASE THE VERSION BEFORE A NEW RELEASE.%
@@ -71,7 +69,7 @@ format:
 
 
 ## Workflow for TG Development (Here goes the TG)
-**Version:** `r rmarkdown::metadata$version`
+**Version:** 0.0.1
 
 1. Update all metadata and the version number in the `README.md` YAML headers of this file
 2. Add abstract to both documents
